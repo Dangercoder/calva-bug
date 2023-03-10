@@ -13,4 +13,4 @@
 ```
 
 ## The bug
-If I go into queue.core and eval the namespace manually, and eval queue.interface and then run `Load/Evaluate current file and its Requires/Dependencies` it works.
+If I go into `queue.core` and eval the namespace manually, eval `queue.interface` and then run `Load/Evaluate current file and its Requires/Dependencies` it works as expected.
