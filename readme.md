@@ -1,4 +1,4 @@
-# Load/Evaluate current file and its Requires/Dependencies`
+# Load/Evaluate current file and its Requires/Dependencies bug example
 
 ## Instructions
 1. Start the repl deps.edn pick calva-bug dev and test aliases.
