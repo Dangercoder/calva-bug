@@ -1,13 +1,16 @@
-<img src="logo.png" width="30%" alt="Polylith" id="logo">
+# Load/Evaluate current file and its Requires/Dependencies`
 
-The Polylith documentation can be found here:
+## Instructions
+1. Start the repl deps.edn pick calva-bug dev and test aliases.
+2. Go to `se.example.queue.core-test` and use the calva command: 
+`Load/Evaluate current file and its Requires/Dependencies`
+3.
+```clojure
+; Evaluating file: core_test.clj
+; Syntax error (ClassNotFoundException) compiling at (se/example/queue/interface.clj:2:3).
+; se.example.queue.core
+; ; Evaluation of file core_test.clj failed: class clojure.lang.Compiler$CompilerException
+```
 
-- The [high-level documentation](https://polylith.gitbook.io/polylith)
-- The [Polylith Tool documentation](https://polylith.gitbook.io/polylith/poly)
-- The [RealWorld example app documentation](https://github.com/furkan3ayraktar/clojure-polylith-realworld-example-app)
-
-You can also get in touch with the Polylith Team on [Slack](https://clojurians.slack.com/archives/C013B7MQHJQ).
-
-<h1>calva-bug</h1>
-
-<p>Add your workspace documentation here...</p>
+## The bug
+If I go into queue.core and eval the namespace manually, and eval queue.interface and then run `Load/Evaluate current file and its Requires/Dependencies` it works.

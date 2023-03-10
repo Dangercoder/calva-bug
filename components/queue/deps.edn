@@ -1,0 +1,5 @@
+{:paths   ["src" "resources"]
+ :deps    {com.novemberain/langohr {:mvn/version "5.4.0"}
+           metosin/malli {:mvn/version "0.10.1"}
+           com.taoensso/nippy {:mvn/version "3.2.0"}}
+ :aliases {:test {:extra-paths ["test"]}}}
